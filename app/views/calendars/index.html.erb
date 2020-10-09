@@ -1,5 +1,10 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+</head>
+<body>
 <div>
- <div>
   <%= form_with model: @plan, url: calendars_path, class: 'form' do |f| %>
     <%= f.label :日付を選択, class: 'lavel' %>
     <%= f.date_field :date, class: 'date-select' %>
@@ -24,5 +29,9 @@
         </ul>
       </div>
      <% end %>
-  </div>
-</div>
+   </div>
+ </div>
+
+</body>
+
+</html>
